@@ -342,7 +342,6 @@ end
 # test 3
 matrix = [[1, 2, 3],
           [4, 5, 6],
-          [7, 8, 9],
           [10, 11, 12]]
 if matrix_check_sum(matrix) == true
   puts "BUG!! Sums of each row does NOT match the corresponding column in this matrix."
@@ -352,7 +351,7 @@ if matrix_check_sum(matrix) == true
     puts
   end
 end
-# test 3
+# test 4
 matrix = [[1, 10, 1],
           [2, 3, 12],
           [9, 4, 9]]
@@ -365,3 +364,4 @@ if matrix_check_sum(matrix) == false
   end
 end
 puts "End of matrix check sum of rows and columns.\n\n"
+
